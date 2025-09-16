@@ -1,8 +1,12 @@
 # Página de Fans: Halt and Catch Fire
 
-![Banner de Halt and Catch Fire](img/portada1.jpg) <!-- Puedes cambiar esta imagen por una que te guste más -->
+![Banner de Halt and Catch Fire](img/portada1.jpg) 
 
 Una página de fans dedicada a la aclamada serie de televisión "Halt and Catch Fire", que explora la revolución tecnológica de los años 80 y 90. Este proyecto busca ser un tributo a la serie, ofreciendo información detallada sobre sus temporadas, personajes y el impacto cultural y tecnológico que retrata.
+
+Puedes visitar la página directamente aquí:
+
+[**https://excengarrido.github.io/halt-and-catch-fire/**](https://excengarrido.github.io/halt-and-catch-fire/)
 
 ## Características
 
@@ -22,7 +26,7 @@ Una página de fans dedicada a la aclamada serie de televisión "Halt and Catch 
 
 ## Cómo Usar
 
-Para ver la página de fans localmente:
+Si eres desarrollador y quieres ver la página de fans localmente, sigue estos pasos:
 
 1.  Clona este repositorio:
     ```bash
