@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Temporadas - Halt and Catch Fire</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+  <link rel="stylesheet" href="styles.css">
+  <link href="https://fonts.googleapis.com/css2?family=Share+Tech+Mono&family=Orbitron:wght@500&display=swap" rel="stylesheet">
+  <link rel="icon" type="image/png" href="img/logo.png">
+</head>
+<body>
+  <!-- Header -->
+  <header class="header">
+    <a href="index.html" class="logo">HCF</a>
+    <button class="hamburger-menu" aria-label="Toggle Menu">
+      <i class="fas fa-bars"></i>
+    </button>
+    <nav class="nav">
+      <a href="index.html#sinopsis">Sinopsis</a>
+      <a href="index.html#personajes">Personajes</a>
+      <a href="galeria.html">Galería</a>
+      <div class="nav-item dropdown">
+        <a href="temporadas.html" class="dropbtn">Temporadas</a>
+        <div class="dropdown-content">
+          <a href="temporada1.html">Temporada 1</a>
+          <a href="temporada2.html">Temporada 2</a>
+          <a href="temporada3.html">Temporada 3</a>
+          <a href="temporada4.html">Temporada 4</a>
+        </div>
+      </div>
+      <a href="contact.html">Contacto</a>
+    </nav>
+  </header>
+
+  <!-- Hero -->
+  <section class="hero contact-hero">
+    <h1>Temporadas</h1>
+    <p>Un vistazo a cada temporada de la serie.</p>
+  </section>
+
+  <section id="temporada1" class="season-section">
+    <h2>Temporada 1</h2>
+    <img src="img/temporada1.jpg" alt="Temporada 1" class="season-image">
+    <p>La primera temporada se centra en el intento de Cardiff Electric de crear un clon del IBM PC. Joe MacMillan lidera el proyecto, reclutando a Gordon Clark y Cameron Howe. La temporada explora los desafíos técnicos, las luchas de poder y los sacrificios personales involucrados en la innovación.</p>
+    <a href="temporada1.html" class="episode-btn">Ver Episodios</a>
+  </section>
+
+  <section id="temporada2" class="season-section">
+    <h2>Temporada 2</h2>
+    <img src="img/temporada2.jpg" alt="Temporada 2" class="season-image">
+    <p>La segunda temporada sigue a Cameron y Donna mientras lanzan Mutiny, una de las primeras comunidades en línea. La temporada se adentra en el mundo de las startups, los juegos en línea y los desafíos de monetizar una plataforma digital, mientras Joe y Gordon exploran nuevos horizontes.</p>
+    <a href="temporada2.html" class="episode-btn">Ver Episodios</a>
+  </section>
+
+  <section id="temporada3" class="season-section">
+    <h2>Temporada 3</h2>
+    <img src="img/temporada3.jpg" alt="Temporada 3" class="season-image">
+    <p>La tercera temporada ve a Mutiny mudarse a Silicon Valley, donde se enfrentan a una competencia feroz y a los desafíos de escalar su negocio. La temporada explora temas de adquisición, la ética en la tecnología y las crecientes tensiones dentro del equipo.</p>
+    <a href="temporada3.html" class="episode-btn">Ver Episodios</a>
+  </section>
+
+  <section id="temporada4" class="season-section">
+    <h2>Temporada 4</h2>
+    <img src="img/temporada4.jpg" alt="Temporada 4" class="season-image">
+    <p>La última temporada salta a los primeros días de la World Wide Web. Los personajes principales, ahora más maduros, buscan su lugar en el nuevo panorama de Internet, explorando ideas como los motores de búsqueda y los portales web. Es una reflexión sobre el legado, la amistad y el impacto duradero de la tecnología en sus vidas.</p>
+    <a href="temporada4.html" class="episode-btn">Ver Episodios</a>
+  </section>
+
+  <!-- Footer -->
+  <footer class="footer">
+    <p>© 2025 Sitio de fans de Halt and Catch Fire</p>
+    <div class="social-icons">
+      <a href="https://www.imdb.com/title/tt2543312/" target="_blank" aria-label="IMDb"><i class="fab fa-imdb"></i></a>
+      <a href="https://x.com/haltamc" target="_blank" aria-label="X (Twitter)"><i class="fab fa-x-twitter"></i></a>
+      <a href="https://www.facebook.com/HaltAndCatchFireAMC/" target="_blank" aria-label="Facebook"><i class="fab fa-facebook-f"></i></a>
+      <a href="https://www.youtube.com/watch?v=pWrioRji60A" target="_blank" aria-label="YouTube"><i class="fab fa-youtube"></i></a>
+    </div>
+  </footer>
+
+  
+
+  <!-- New Description Modal -->
+  <div id="new-description-modal" class="modal-overlay">
+    <div class="modal-content">
+      <span class="close-modal-btn">&times;</span>
+      <h3 id="new-description-title"></h3>
+      <p id="new-description-text"></p>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
