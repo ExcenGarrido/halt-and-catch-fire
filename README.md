@@ -2,7 +2,7 @@
 
 ![Banner de Halt and Catch Fire](img/portada1.jpg) <!-- Puedes cambiar esta imagen por una que te guste más -->
 
-**[Ver Demo en Vivo](https://excengarrido.github.io/halt-and-catch-fire/index.html)**
+**[Ver Pagina en Vivo](https://excengarrido.github.io/halt-and-catch-fire/index.html)**
 
 Una página de fans dedicada a la aclamada serie de televisión "Halt and Catch Fire", que explora la revolución tecnológica de los años 80 y 90. Este proyecto busca ser un tributo a la serie, ofreciendo información detallada sobre sus temporadas, personajes y el impacto cultural y tecnológico que retrata.
 
